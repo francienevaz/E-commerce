@@ -1,6 +1,6 @@
-const Item = (props) => {
+const Item = ({children}) => {
     return (
-        <a href="/" class="list-group-item list-group-item-action list-group-item-danger">{props.texto}</a>
+        <a href="/" class="list-group-item list-group-item-action list-group-item-danger">{children}</a>
     )
 }
 
