@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Button from "../Button";
 
 const Card = () => {
     const [valor, setValor] = useState(0)
@@ -17,17 +18,16 @@ const Card = () => {
                 Meu primeiro Card
             </div>
             <div className="card-body">
-            <button 
-                type="button" 
+            <Button 
                 className="btn btn-success"
-                onClick={Add}>Add
-            </button>
-
-            <button 
-                type="button" 
-                className="btn btn-success"
-                onClick={Remove}>Remove
-            </button>
+                onClick={Add}> 
+                Add
+            </Button>
+            <Button
+                className=""
+                onClick={Remove}>
+                Remove
+            </Button>
             <p>{valor}</p>
             
             </div>
