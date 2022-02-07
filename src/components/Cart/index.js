@@ -75,7 +75,7 @@ const Cart = () => {
                         </div>
 
                     <div className="modal-footer">
-                        <button type="button" className="btn btn-success">Finalizar a compra</button>
+                        <button type="button" className="btn btn-success" data-bs-dismiss="modal">Finalizar a compra</button>
                         <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
                     </div>
