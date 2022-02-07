@@ -15,10 +15,6 @@ Use yarn start for run the application, it will start on
 $ yarn start
 ```
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details
-
 ## Find out more about it:
 <a href="https://github.com/nathyts">Nathally Souza</a> <br>
 <a href="https://web.dio.me/home">DIO</a>
