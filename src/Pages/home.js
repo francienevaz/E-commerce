@@ -6,7 +6,7 @@ import Card from '../components/Card';
 
 const useStyles = makeStyles((theme) => ({
     root: {
-      background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
+      background: '#FF8E53',
       flexGrow: 1,
       marginTop: '5px',
     },
@@ -39,10 +39,10 @@ const HomePage = () => {
     let count = { };
 
     for(let i = 0; i < arrayCategory.length; i++){
-        {
+        
             let key = arrayCategory[i];
             count[key] = (count[key] ? count[key] + 1 : 1)
-        }
+        
     }
 
     return(
