@@ -1,6 +1,8 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import cartActions from '../store/actions/cart';
+import FormPropsTextFields from '../../Pages/pay'
+import ColorButton from '../Button';
 
 const Cart = () => {
     const cart = useSelector(state => state.cart)
@@ -75,7 +77,7 @@ const Cart = () => {
                         </div>
 
                     <div className="modal-footer">
-                        <button type="button" className="btn btn-success" data-bs-dismiss="modal">Finalizar a compra</button>
+                        <ColorButton variant="contained" onClick={FormPropsTextFields}>Finalizar a compra</ColorButton>
                         <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
                     </div>
