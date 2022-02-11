@@ -11,11 +11,11 @@ export const useStyles = makeStyles((theme) => ({
     },
     root: {
       background: '#DC872C',
-      flexGrow: 1,
-      marginTop: '5px',
+      width: '100%',
+      margin: '0',
     },
     paper: {
-      padding: theme.spacing(2),
+      padding: theme.spacing(0),
       textAlign: 'center',
       background:'#dcdcdc',
       color: 'black'
