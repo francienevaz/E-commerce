@@ -4,15 +4,21 @@ import { Paper, Grid, Typography, List, makeStyles } from '@material-ui/core/';
 import Item from '../components/Item';
 import Card from '../components/Card';
 
-const useStyles = makeStyles((theme) => ({
+export const useStyles = makeStyles((theme) => ({
+    grid: {
+      background: 'black',
+      color: 'white'
+    },
     root: {
-      background: '#FF8E53',
+      background: '#DC872C',
       flexGrow: 1,
       marginTop: '5px',
     },
     paper: {
       padding: theme.spacing(2),
-      textAlign: 'center'
+      textAlign: 'center',
+      background:'#dcdcdc',
+      color: 'black'
     },
   }));
 
